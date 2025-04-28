@@ -9,7 +9,7 @@ export default function Home() {
         <div className="w-full max-w-7xl px-16">
           <section className="my-12">
             <h1 className="mb-4 text-4xl font-bold text-teal-400">
-              Ponktoku's UI Playground
+              Ponktoku&apos;s UI Playground
             </h1>
             <h2 className="text-lg font-semibold text-white/90 italic">
               A space for experimenting and practising with UIs

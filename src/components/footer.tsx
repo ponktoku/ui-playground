@@ -6,7 +6,7 @@ export default function Footer() {
           v1.0
         </span>
         <ul className="mt-2 leading-8">
-          <li className="text-2xl font-bold">Ponktoku's UI playground</li>
+          <li className="text-2xl font-bold">Ponktoku&apos;s UI Playground</li>
           <li className="text-gray-400">
             Where I practice and enhance my UI creating skills.
           </li>
