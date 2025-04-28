@@ -4,13 +4,13 @@ This repository is my playground of building UIs as front-end practice. It featu
 
 ## TODOs
 
-- [ ] Add package for to use icons
-- [ ] Add navigation from homepage to all of the designs
-- [ ] Add some navigation to easily switch?
+- [x] Add package for to use icons (used Lucide Icons)
+- [x] Add navigation from homepage to all of the designs
+- [x] Add some navigation to easily switch?
 
 ## Snack Landing Page 306 TODOs
 
-- [ ] Finish the Snack Landing Page challenge 306
+- [x] Finish the Snack Landing Page challenge 306
 - [x] Add images of donuts
 - [x] Add the Text
 - [x] Add the CTA button "Order Now"
@@ -19,3 +19,7 @@ This repository is my playground of building UIs as front-end practice. It featu
 ## Notes from 04-26-2025
 
 Just started the project, added shadcn-ui (for cn utils), tailwindcss and tw-animate-css. Finished the left side. Finish the right side with donut images from unsplash.
+
+## Notes from 04-28-2025
+
+Finished the Snack Landing Page and all of the current TODOs. Website goes live today using Vercel for hosting.
