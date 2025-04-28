@@ -4,20 +4,20 @@ import Image from "next/image";
 export default function SnackLanding() {
   return (
     <>
-      <main className="bg-pink-300 flex flex-col items-center justify-center max-w-full min-h-dvh">
-        <h1 className="font-bold text-4xl">Snack Landing Page #306</h1>
+      <main className="flex min-h-dvh max-w-full flex-col items-center justify-center bg-pink-300">
+        <h1 className="text-4xl font-bold">Snack Landing Page #306</h1>
 
-        <section className=" bg-white my-10 mx-50 rounded shadow-lg p-20 grid grid-cols-2 gap-20">
+        <section className="mx-50 my-10 grid grid-cols-2 gap-20 rounded bg-white p-20 shadow-lg">
           <div className="mt-10">
-            <h1 className="font-medium text-5xl leading-15 mb-5 tracking-wider">
+            <h1 className="mb-5 text-5xl leading-15 font-medium tracking-wider">
               Ready? <br /> Snack time!
             </h1>
-            <p className="overflow-auto text-gray-500 text-2xl tracking-wide mb-5">
+            <p className="mb-5 overflow-auto text-2xl tracking-wide text-gray-500">
               Delicious donuts baked to perfection. Sweet, fluffy, and ready to
               enjoy. Perfect for snack breaks or sharing with friends.
             </p>
 
-            <button className="bg-black rounded-full text-white py-5 px-15 text-xl tracking-wide hover:bg-black/80 hover:cursor-pointer mb-10">
+            <button className="mb-10 rounded-full bg-black px-15 py-5 text-xl tracking-wide text-white hover:cursor-pointer hover:bg-black/80">
               Order Now
             </button>
 
@@ -26,7 +26,7 @@ export default function SnackLanding() {
                 width="150"
                 height="150"
                 viewBox="0 0 150 150"
-                className="bg-[#C0D9DD] rounded-full border border-black"
+                className="rounded-full border border-black bg-[#C0D9DD]"
               >
                 <defs>
                   <path
@@ -58,7 +58,7 @@ export default function SnackLanding() {
                 width="150"
                 height="150"
                 viewBox="0 0 150 150"
-                className="bg-[#FEC671] rounded-full border border-black"
+                className="rounded-full border border-black bg-[#FEC671]"
               >
                 <defs>
                   <path
@@ -106,7 +106,7 @@ export default function SnackLanding() {
                   alt="donut image 1"
                   height={300}
                   width={300}
-                  className="rounded-4xl shadow-md shadow-gray-400 object-cover w-[300px] h-[300px] hover:opacity-90"
+                  className="h-[300px] w-[300px] rounded-4xl object-cover shadow-md shadow-gray-400 hover:opacity-90"
                 />
               </a>
 
@@ -120,13 +120,13 @@ export default function SnackLanding() {
                   alt="donut image 3"
                   height={300}
                   width={300}
-                  className="rounded-4xl shadow-md shadow-gray-400 object-cover w-[300px] h-[300px] hover:opacity-90"
+                  className="h-[300px] w-[300px] rounded-4xl object-cover shadow-md shadow-gray-400 hover:opacity-90"
                 />
               </a>
             </div>
 
             {/* right hand side */}
-            <div className="flex flex-col gap-10 mt-20">
+            <div className="mt-20 flex flex-col gap-10">
               <a
                 href="https://unsplash.com/photos/a-bunch-of-doughnuts-that-are-on-a-plate-mfGSidToZys"
                 target="_blank"
@@ -137,7 +137,7 @@ export default function SnackLanding() {
                   alt="donut image 2"
                   height={300}
                   width={300}
-                  className="rounded-4xl shadow-md shadow-gray-400 object-cover w-[300px] h-[300px] hover:opacity-90"
+                  className="h-[300px] w-[300px] rounded-4xl object-cover shadow-md shadow-gray-400 hover:opacity-90"
                 />
               </a>
 
@@ -151,7 +151,7 @@ export default function SnackLanding() {
                   alt="donut image 4"
                   height={300}
                   width={300}
-                  className="rounded-4xl shadow-md shadow-gray-400 object-cover w-[300px] h-[300px] hover:opacity-90"
+                  className="h-[300px] w-[300px] rounded-4xl object-cover shadow-md shadow-gray-400 hover:opacity-90"
                 />
               </a>
             </div>

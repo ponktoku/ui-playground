@@ -1,12 +1,12 @@
 export default function Footer() {
   return (
-    <footer className="text-white py-8 bg-black rounded-t-lg mx-48 flex justify-between">
+    <footer className="mx-48 flex justify-between rounded-t-lg bg-black py-8 text-white">
       <div className="ml-12">
-        <span className="px-2 py-1 rounded-full text-sm font-semibold leading-snug bg-gradient-to-tl from-teal-950/40 to-teal-600/40 border border-teal-600">
+        <span className="rounded-full border border-teal-600 bg-gradient-to-tl from-teal-950/40 to-teal-600/40 px-2 py-1 text-sm leading-snug font-semibold">
           v1.0
         </span>
         <ul className="mt-2 leading-8">
-          <li className="font-bold text-2xl">Ponktoku's UI playground</li>
+          <li className="text-2xl font-bold">Ponktoku's UI playground</li>
           <li className="text-gray-400">
             Where I practice and enhance my UI creating skills.
           </li>
@@ -14,14 +14,14 @@ export default function Footer() {
       </div>
 
       <div className="mr-12 text-right">
-        <h4 className="font-bold text-lg">Links.</h4>
+        <h4 className="text-lg font-bold">Links.</h4>
         <ul className="text-gray-400">
           <li>
             <a
               href="https://www.ponktoku.dev/en/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline decoration-wavy underline-offset-4 hover:underline-offset-1 transition-all hover:text-white"
+              className="underline decoration-wavy underline-offset-4 transition-all hover:text-white hover:underline-offset-1"
             >
               ponktoku.dev
             </a>
@@ -32,7 +32,7 @@ export default function Footer() {
               href="https://www.ponktoku.dev/en/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline decoration-wavy underline-offset-4 hover:underline-offset-1 transition-all hover:text-white"
+              className="underline decoration-wavy underline-offset-4 transition-all hover:text-white hover:underline-offset-1"
             >
               Github
             </a>{" "}
@@ -41,7 +41,7 @@ export default function Footer() {
               href="https://x.com/ponktokuDotDev"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline decoration-wavy underline-offset-4 hover:underline-offset-1 transition-all hover:text-white"
+              className="underline decoration-wavy underline-offset-4 transition-all hover:text-white hover:underline-offset-1"
             >
               Twitter
             </a>
@@ -51,7 +51,7 @@ export default function Footer() {
               href="https://links.ponktoku.dev/"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline decoration-wavy underline-offset-4 hover:underline-offset-1 transition-all hover:text-white"
+              className="underline decoration-wavy underline-offset-4 transition-all hover:text-white hover:underline-offset-1"
             >
               My other links
             </a>

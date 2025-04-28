@@ -18,17 +18,17 @@ export default function Card({
             height={1000}
             width={1000}
             alt="UI Playground Image Card"
-            className=" rounded-2xl object-cover overflow-hidden shadow hover:shadow-lg transition mb-4"
+            className="mb-4 overflow-hidden rounded-2xl object-cover shadow transition hover:shadow-lg"
           ></Image>
-          <h2 className="font-semibold text-lg text-white">{title}</h2>
+          <h2 className="text-lg font-semibold text-white">{title}</h2>
         </Link>
-        <h3 className="text-sm text-white/70 mb-2">{createdAt}</h3>
+        <h3 className="mb-2 text-sm text-white/70">{createdAt}</h3>
 
         <div className="flex gap-2">
           {tags?.map((tag) => (
             <span
               key={tag}
-              className="capitalize hidden hover:opacity-80 hover:cursor-pointer text-white sm:block px-2 py-1 rounded-full text-sm font-semibold leading-snug bg-gradient-to-tl from-teal-950/40 to-teal-600/40 border border-teal-600"
+              className="hidden rounded-full border border-teal-600 bg-gradient-to-tl from-teal-950/40 to-teal-600/40 px-2 py-1 text-sm leading-snug font-semibold text-white capitalize hover:cursor-pointer hover:opacity-80 sm:block"
             >
               {tag}
             </span>
