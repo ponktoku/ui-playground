@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-b from-black to-black via-[#111] flex flex-col">
+      <body className="bg-gradient-to-b from-black to-gray-900 flex flex-col">
         {children}
       </body>
     </html>

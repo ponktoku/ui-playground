@@ -28,7 +28,7 @@ export default function Card({
           {tags?.map((tag) => (
             <span
               key={tag}
-              className="hidden hover:opacity-80 hover:cursor-pointer text-white sm:block px-2 py-1 rounded-full text-sm font-semibold leading-snug bg-gradient-to-tl from-teal-950/40 to-teal-600/40 border border-teal-600"
+              className="capitalize hidden hover:opacity-80 hover:cursor-pointer text-white sm:block px-2 py-1 rounded-full text-sm font-semibold leading-snug bg-gradient-to-tl from-teal-950/40 to-teal-600/40 border border-teal-600"
             >
               {tag}
             </span>
