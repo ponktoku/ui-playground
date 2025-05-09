@@ -6,8 +6,8 @@ export default function SnackLanding() {
     <>
       <main className="flex min-h-dvh max-w-full flex-col items-center justify-center bg-pink-300">
         <h1 className="text-4xl font-bold">Snack Landing Page #306</h1>
-
-        <section className="mx-50 my-10 grid grid-cols-2 gap-20 rounded bg-white p-20 shadow-lg">
+        {/* mx-50 my-10 grid grid-cols-2 gap-20 rounded bg-white p-20 shadow-lg lg:mx-100 */}
+        <section className="mx-4 my-8 grid w-full max-w-[90%] grid-cols-1 gap-10 overflow-hidden rounded bg-white p-6 shadow-lg sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] lg:grid-cols-2 lg:p-20 xl:max-w-[55%] 2xl:max-w-[45%]">
           <div className="mt-10">
             <h1 className="mb-5 text-5xl leading-15 font-medium tracking-wider">
               Ready? <br /> Snack time!
@@ -92,7 +92,6 @@ export default function SnackLanding() {
               ></Image>
             </div>
           </div>
-
           <div className="grid grid-cols-2 gap-10">
             {/* left hand side */}
             <div className="flex flex-col gap-10">

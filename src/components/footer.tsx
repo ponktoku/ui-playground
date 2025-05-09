@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="mx-48 flex justify-between rounded-t-lg bg-black py-8 text-white">
+    <footer className="flex justify-between rounded-t-lg bg-black py-8 text-white md:mx-24 lg:mx-48 2xl:mx-[15%]">
       <div className="ml-12">
         <span className="rounded-full border border-teal-600 bg-gradient-to-tl from-teal-950/40 to-teal-600/40 px-2 py-1 text-sm leading-snug font-semibold">
           v1.0
